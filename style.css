@@ -55,6 +55,12 @@ header {
     position: absolute;
 }
 
+header section {
+    width: 200px;
+    color: #efefef;
+    background: #ddd;
+}
+
 footer {
     position: absolute;
 }
