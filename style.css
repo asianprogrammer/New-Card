@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Baltore;
+    src: url(./assets/fonts/Baltore.ttf);
+}
 
 body {
     min-height: 100vh;
+    font-family: Baltore;
 }
 
 .center {
