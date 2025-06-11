@@ -90,17 +90,16 @@ h1 {
 }
 
 footer {
-    bottom: 0;
     left: 50%;
-    width: 100%;
+    bottom: 0;
+    width: 101%;
     z-index: 111;
-    margin: 0 auto;
     padding: 2em 2.5em;
     padding-top: 5em;
     position: absolute;
     backdrop-filter: blur(7px);
     transform: translateX(-50%);
-    background: rgba(209, 209, 209, 0.363);
+    background: rgba(168, 168, 168, 0.432);
     mask: linear-gradient(to top, black 61%, transparent 100%);
 }
 
