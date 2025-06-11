@@ -76,8 +76,16 @@ h1 {
 }
 
 footer {
+    bottom: 0;
+    left: 50%;
     width: 100%;
+    z-index: 111;
+    margin: 0 auto;
+    padding: 2em 3em;
+    padding-top: 3em;
     position: absolute;
+    transform: translateX(-50%);
+    backdrop-filter: blur(5px);
 }
 
 
@@ -96,4 +104,8 @@ footer {
 
 .FW {
     flex-direction: column;
+}
+
+.F-space {
+    justify-content: space-between;
 }
