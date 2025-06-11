@@ -72,3 +72,8 @@ footer {
 .FY-center {
     align-items: center;
 }
+
+.F-center {
+    align-items: center;
+    justify-content: center;
+}
