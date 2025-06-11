@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     min-height: 100vh;
 }
@@ -11,4 +12,14 @@ body {
 .center {
     display: grid;
     place-content: center;
+}
+
+main {
+    width: 95%;
+    height: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    max-height: 600px;
+    border-radius: 28px;
+    border: solid 1px red;
 }
