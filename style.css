@@ -82,12 +82,25 @@ footer {
     z-index: 111;
     margin: 0 auto;
     padding: 2em 3em;
-    padding-top: 3em;
+    padding-top: 4em;
     position: absolute;
     transform: translateX(-50%);
     backdrop-filter: blur(5px);
+    mask: linear-gradient(to top, black 66%, transparent 90%);
 }
 
+button {
+    outline: none;
+    font-size: 1.2em;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-top: solid 1px #ffffff;
+    background: rgba(241, 241, 241, 0);
+    box-shadow: rgba(255, 255, 255, 0.233) 0px 10px 60px -12px inset, rgba(227, 227, 227, 0.123) 0px 18px 36px -18px inset, rgba(255, 255, 255, 0.301) 0 -3px 8px inset;
+}
 
 .flex {
     display: flex;
