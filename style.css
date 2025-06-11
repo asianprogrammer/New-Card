@@ -18,8 +18,7 @@ main {
     width: 95%;
     max-width: 500px;
     overflow: hidden;
-    border-radius: 28px;
-    border: solid 1px red;
+    border-radius: 45px;
     position: relative;
 }
 
@@ -56,12 +55,21 @@ header {
 }
 
 header section {
-    width: 200px;
     color: #efefef;
-    background: #ddd;
+    width: fit-content;
+    padding: 0.2em 1em;
+    border-radius: 28px;
+    background: rgba(241, 241, 241, 0.231);
+    backdrop-filter: blur(5px);
+    box-shadow: rgb(255 255 255 / 49%) 0px 10px 60px -12px inset, rgb(227 227 227 / 24%) 0px 18px 36px -18px inset, #ffffff8a 0 -3px 8px inset;
+}
+
+header .icon {
+    margin-right: 0.5em;
 }
 
 footer {
+    width: 100%;
     position: absolute;
 }
 
