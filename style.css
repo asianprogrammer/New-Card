@@ -55,13 +55,14 @@ header {
 }
 
 header section {
+    font-size: 0.9em;
     color: #efefef;
     width: fit-content;
-    padding: 0.2em 1em;
-    border-radius: 28px;
-    background: rgba(241, 241, 241, 0.231);
+    padding: 0.4em 1em;
+    border-radius: 8px;
     backdrop-filter: blur(5px);
-    box-shadow: rgb(255 255 255 / 49%) 0px 10px 60px -12px inset, rgb(227 227 227 / 24%) 0px 18px 36px -18px inset, #ffffff8a 0 -3px 8px inset;
+    background: rgba(241, 241, 241, 0);
+    box-shadow: rgba(255, 255, 255, 0.233) 0px 10px 60px -12px inset, rgba(227, 227, 227, 0.123) 0px 18px 36px -18px inset, rgba(255, 255, 255, 0.301) 0 -3px 8px inset;
 }
 
 header .icon {
