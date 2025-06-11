@@ -12,6 +12,7 @@
 
 body {
     min-height: 100vh;
+    background: url(./assets/images/user.jpg);
 }
 
 .center {
@@ -65,10 +66,10 @@ header section {
     width: fit-content;
     line-height: 0em;
     padding: 0.4em 1em;
-    border-radius: 8px;
+    border-radius: 25px;
     backdrop-filter: blur(5px);
     background: rgba(241, 241, 241, 0);
-    box-shadow: rgba(255, 255, 255, 0.233) 0px 10px 60px -12px inset, rgba(227, 227, 227, 0.123) 0px 18px 36px -18px inset, rgba(255, 255, 255, 0.301) 0 -3px 8px inset, 0.5px -0.5px 0px #ffffff inset;
+    box-shadow: rgba(255, 255, 255, 0.233) 0px 10px 60px -12px inset, rgba(227, 227, 227, 0.123) 0px 18px 36px -18px inset, rgba(255, 255, 255, 0.301) 0 -3px 8px inset, 0px 0.5px 0px #ffffff inset;
 }
 
 .profile {
@@ -98,10 +99,10 @@ footer {
     padding: 2em 2.5em;
     padding-top: 5em;
     position: absolute;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(7px);
     transform: translateX(-50%);
     background: rgba(209, 209, 209, 0.363);
-    mask: linear-gradient(to top, black 66%, transparent 90%);
+    mask: linear-gradient(to top, black 61%, transparent 100%);
 }
 
 button {
