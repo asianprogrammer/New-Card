@@ -37,6 +37,17 @@ main img {
     position: relative;
 }
 
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 header {
     top: 2em;
     width: 100%;
